@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleCart.css">
+  <title>Title</title>
+</head>
+<body>
+<iframe style="width: 100%" src="header.html"></iframe>
+<h2 class="text-center" style="margin-top: 20px">GIỎ HÀNG</h2>
+<div class="container">
+  <table id="cart" class="table table-hover table-condensed">
+    <thead style="background-color: #27c5c7">
+    <tr>
+      <th style="width:50%"><input type="checkbox" style="margin: 0;">&nbsp;&nbsp;Sản phẩm</th>
+      <th style="width:22%">Giá</th>
+      <th style="width:12%">Số lượng</th>
+      <th style="width:22%" class="text-center">Thành tiền</th>
+      <th style="width:10%"> </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td data-th="Product">
+        <div class="row">
+          <div class="col-sm-2 hidden-xs">
+            <img src="img_product/YT-013.webp" class="card-img-top" alt="...">
+          </div>
+          <div class="col-sm-10">
+            <h5 class="nomargin">Khẩu trang y tế 4 lớp kháng khuẩn cao cấp BIOMEQ</h5>
+<!--            <p style="font-size: 10px">So luong san pham con lai</p>-->
+          </div>
+        </div>
+      </td>
+      <td data-th="Price">46.000 đ</td>
+      <td data-th="Quantity">
+        <input class="form-control text-center" value="1" type="number">
+      </td>
+      <td data-th="Subtotal" class="text-center">46.000 đ</td>
+      <td>
+        <button type="button">X</button>
+      </td>
+    </tr>
+    <tr>
+      <td data-th="Product">
+        <div class="row">
+          <div class="col-sm-2 hidden-xs">
+            <img src="img_product/YT-014.webp" alt="Sản phẩm 1" class="img-responsive" width="80">
+          </div>
+          <div class="col-sm-10">
+            <h5 class="nomargin">Đai chống gù lưng United Medicare C15</h5>
+          </div>
+        </div>
+      </td>
+      <td data-th="Price">590.000 đ</td>
+      <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+      </td>
+      <td data-th="Subtotal" class="text-center">590.000 đ</td>
+      <td>
+        <button type="button">X</button>
+      </td>
+    </tr>
+    </tbody><tfoot>
+  <tr>
+    <td colspan="2" class="hidden-xs"> </td>
+    <td style="float: right"><strong>Tổng tiền 636.000 đ</strong>
+    </td>
+    <td><a style="float: right; margin-left: 50px" href="http://hocwebgiare.com/" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+    </td>
+  </tr>
+  </tfoot>
+  </table>
+</div>
+<iframe style="width: 100%" src="footer.html"></iframe>
+</body>
+</html>

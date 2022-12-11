@@ -1,0 +1,296 @@
+.footer {
+    width: 100%;
+    height: 310px;
+    /*background-color: #27c5c7*/
+}
+
+.logo img{
+    width: 170px;
+    height: 150px;
+    margin-top: 50px;
+    float: left;
+    /*background: blue;*/
+    margin-left: 20px;
+}
+
+.information {
+    /*background: blueviolet;*/
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.information p {
+    font-weight: 600;
+}
+
+.information span {
+    line-height: 2;
+}
+
+.helpfulLinks {
+    /*background: blueviolet;*/
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.helpfulLinks p {
+    font-weight: 600;
+}
+
+.helpfulLinks span {
+    line-height: 2;
+}
+
+.ourService {
+    /*background: blueviolet;*/
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.ourService p {
+    font-weight: 600;
+}
+
+.ourService span {
+    line-height: 2;
+}
+
+.contractUs {
+    /*background: blueviolet;*/
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.contractUs p {
+    font-weight: 600;
+}
+
+.contractUs span {
+    line-height: 2;
+}
+
+.logoText span {
+    float: left;
+    margin-left: 10px;
+    width: 80%;
+}
+
+.logoFooter span img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.logoContract img {
+    width: 33px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+hr {
+    clear: both;
+    height:1px;
+    border:none;
+    color:#333;
+    background-color:#333;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footerText span{
+    /*background: darkgreen;*/
+    height: 20px;
+    width:100%;
+    font-size: 12px;
+    margin-left: 600px
+}
+
+.carousel {
+    width: 95%;
+    height: 450px;
+}
+
+.carousel img {
+    width: 95%;
+    height: 450px;
+}
+
+.carousel {
+    margin-left: 35px;
+}
+
+.title {
+    width: 100%;
+    background-color: #27c5c7;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.introduction  {
+    margin-top: 30px;
+    height: 300px;
+    /*background: blueviolet;*/
+}
+
+.introduction img {
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+}
+
+.introductionTextTitle {
+    float: left;
+    width: 50%;
+    /*background: chartreuse;*/
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.introductionTextTitle span {
+    font-size: 16px;
+}
+
+.service {
+    /*background: chartreuse;*/
+    width: 100%;
+    height: 540px;
+}
+
+.service1 {
+    width: 30%;
+    height: 250px;
+    /*background: blueviolet;*/
+    float: left;
+    margin-left: 35px;
+}
+
+.service1 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.service1 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service2 {
+    width: 30%;
+    height: 250px;
+    /*background: blueviolet;*/
+    float: left;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+.service2 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.service2 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-left: 700px;
+    margin-right: 200px;
+    margin-top: 100px;
+    border-radius: 15px 50px;
+}
+
+.login img {
+    width: 120px;
+    height: 100px;
+}
+
+.login h3{
+    text-align: center;
+}
+
+.detail {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    border-radius: 15px 50px;
+}
+
+.detail img {
+    width: 300px;
+    height: 260px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.detail h4 {
+    margin-top: 50px;
+}
+
+.detailProduct {
+    padding-left: 350px;
+}
+
+.detailProduct p {
+    text-align: left;
+}
+
+.card {
+    width: 340px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 50px;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.card img {
+    padding-top: 10px;
+    width: 250px;
+    height: 200px;
+    padding-left: 100px;
+}
+
+.category {
+    width: 20%;
+    background-color: #27c5c7;
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 0px 75px 75px 0px;
+    margin-top: 20px;
+    clear: both;
+}
+
+.category h5 {
+    padding-left: 100px;
+}
+
+
+
+
+
