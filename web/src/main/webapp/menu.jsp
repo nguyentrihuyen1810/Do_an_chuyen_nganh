@@ -45,7 +45,7 @@
       </ul>
       <form class="d-flex" role="search" style="width: 35%">
         <img style = "width: 25px; height: 25px; margin-top: 9px; margin-left: 50px" src="https://cdn-icons-png.flaticon.com/128/456/456212.png"><span style = "padding-top: 10px; padding-left: 5px">${loginedUser.username}</span>
-        <a href="login.html"><img style = "width: 25px; height: 25px; margin-top: 9px; margin-left: 80px" src="https://cdn-icons-png.flaticon.com/128/665/665865.png"></a>
+        <a href="${pageContext.request.contextPath}/cart"><img style = "width: 25px; height: 25px; margin-top: 9px; margin-left: 80px" src="https://cdn-icons-png.flaticon.com/128/665/665865.png"></a>
         <span>0</span>
         <a href="${pageContext.request.contextPath}/login"><img style = "width: 25px; height: 25px; margin-top: 9px; margin-left: 20px" src="https://cdn-icons-png.flaticon.com/128/1828/1828445.png"></a>
         <a href="${pageContext.request.contextPath}/logout"><img style = "width: 25px; height: 25px; margin-top: 9px; margin-left: 20px" src="https://cdn-icons-png.flaticon.com/128/1828/1828479.png"></a>

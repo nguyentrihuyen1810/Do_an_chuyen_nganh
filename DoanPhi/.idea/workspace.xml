@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62e91689-8988-455a-8b58-c81fcbdefd5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../web/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/artifacts/web_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/artifacts/web_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/medical/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/medical/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/connection/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/connection/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/connection/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/connection/ConnectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/dao/DataDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/dao/DataDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/filter/CookieFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/filter/CookieFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/filter/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/filter/JDBCFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/filter/JDBCFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/filter/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/filter/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/model/Medical.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/model/Medical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/request/UserRoleRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/request/UserRoleRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/AdminTaskServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/AdminTaskServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/CreateProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/CreateProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/DeleteProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/DeleteProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/DetailProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/DetailProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/DisableServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/DisableServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/EditProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/EditProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/ProductCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/ProductCartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/ProductListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/UserInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/UserInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/servlet/UserTaskServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/servlet/UserTaskServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/utils/AppUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/utils/AppUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/utils/MyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/utils/MyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/utils/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/java/utils/UrlPatternUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/java/utils/UrlPatternUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/accessDenied.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/accessDenied.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/medical/createProductView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/medical/createProductView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/medical/deleteProductErrorView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/medical/deleteProductErrorView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/medical/detailProductView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/medical/detailProductView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/medical/editProductView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/medical/editProductView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/medical/productListVIew.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/medical/productListVIew.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/user/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/user/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/views/homeView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/views/homeView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/views/loginView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/views/loginView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/main/webapp/views/userInfoView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main/webapp/views/userInfoView.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2JGwd8Fe2WX56W8lZwcAVWkYXrC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/DH/Nam_3/Ki 1/Thiet ke va lap trinh web/Thiet_ke_va_lap_trinh_Web/Cuoi ky/DoanPhi"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62e91689-8988-455a-8b58-c81fcbdefd5e" name="Changes" comment="" />
+      <created>1671717817928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671717817928</updated>
+      <workItem from="1671717819976" duration="189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,6 +1,7 @@
 package utils;
 
 import com.mysql.cj.jdbc.ConnectionImpl;
+import model.Cart;
 import model.Medical;
 import model.Account;
 
@@ -12,6 +13,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DBUtils {
+
+    private Connection con;
+    private String query;
+    private PreparedStatement pst;
+    private ResultSet rs;
+
+    public DBUtils(Connection con) {
+        super();
+        this.con = con;
+    }
 
 //    public static Account findUser(Connection conn, String username, String password) throws SQLException {
 //        String sql = "select * from `account` where username = ? and `password` = ?";
@@ -152,33 +163,31 @@ public class DBUtils {
         pstm.executeUpdate();
     };
 
-    public static List<Medical> searchByName(Connection conn, String name) throws SQLException {
-        List<Medical> list = new ArrayList<>();
-        String sql = "select * from product where name = ?";
-        PreparedStatement pstm = conn.prepareStatement(sql);
-        ResultSet rs = pstm.executeQuery();
-        while (rs.next()) {
-            String code = rs.getString("code");
-            int price = rs.getInt("price");
-            String description = rs.getString("description");
-            String image = rs.getString("image");
-            String producer = rs.getString("producer");
-            String trade_mark = rs.getString("trade_mark");
-            String warranty_period = rs.getString("warranty_period");
-            String expiry = rs.getString("expiry");
-            String origin = rs.getString("origin");
-            String mass = rs.getString("mass");
-            String size = rs.getString("size");
-            String volume = rs.getString("volume");
-            int category_id = rs.getInt("category_id");
-//            String category_name = rs.getString("category_name");
-            Medical medical = new Medical();
-            medical.setCode(code); medical.setName(name); medical.setPrice(price); medical.setDescription(description);
-            medical.setImage(image); medical.setProducer(producer); medical.setTrade_mark(trade_mark); medical.setWarranty_period(warranty_period);
-            medical.setExpiry(expiry); medical.setOrigin(origin); medical.setMass(mass); medical.setSize(size); medical.setVolume(volume);
-            medical.setCategory_id(category_id);
-            list.add(medical);
+    public List<Cart> getCartProducts(ArrayList<Cart> cartList) {
+        List<Cart> products = new ArrayList<Cart>();
+        try {
+            if(cartList.size() > 0) {
+                for(Cart item:cartList) {
+                    query = "select * from product where code = ?";
+                    pst = this.con.prepareStatement(query);
+                    pst.setString(1, item.getCode());
+                    rs = pst.executeQuery();
+                    while (rs.next()) {
+                        Cart row = new Cart();
+                        row.setCode(rs.getString("code"));
+                        row.setName(rs.getString("name"));
+                        row.setPrice(rs.getInt("price")*item.getQuantity());
+                        row.setQuantity(item.getQuantity());
+                        products.add(row);
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+
         }
-        return list;
+        return products;
     }
+
+
 }

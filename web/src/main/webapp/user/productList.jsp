@@ -41,7 +41,7 @@
             <h5 class="card-title">${product.name}</h5>
             <p class="card-text">${product.price}</p>
             <a style="text-decoration: none;" href="detailProduct?code=${product.code}"><button type="button" class="btn btn-primary">Chi tiết</button></a>
-            <a style = "margin-left: 20px" href="#" class="btn btn-success">Thêm vào giỏ hàng</a>
+            <a style = "margin-left: 20px" href="add-to-cart?code=${product.code}" class="btn btn-success">Thêm vào giỏ hàng</a>
         </div>
     </div>
 </c:forEach>
